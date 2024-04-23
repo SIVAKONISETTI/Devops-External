@@ -8,8 +8,8 @@ document.getElementById("registrationForm").addEventListener("submit", function(
     } 
     else {
         // Redirect to success page
-        window.location.href = "https://github.com/"; // Replace "success.html" with the URL of your success page
-        alert("DONE...");
+        window.location.href = "success.html"; // Replace "success.html" with the URL of your success page
+        alert("DONE..");
         event.preventDefault();
     }
 });
